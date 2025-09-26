@@ -38,7 +38,7 @@ QUIZ_QUESTIONS = {
 
 st.title("🎧 The Ultimate Musical Genre Challenge 🎶")
 st.write("Test your knowledge across the musical spectrum, from the club to the concert hall!")
-st.image('/Users/cainencrowder/Downloads/WebDevLab01 2/WebDevLab01/Images/music.jpg', caption="Which genre is calling you?", use_container_width=True)
+st.image('/Users/cainencrowder/Downloads/WebDev-Lab-1-/Images/music.jpg', caption="Which genre is calling you?", use_container_width=True)
 
 score = 0
 results = {}
@@ -100,10 +100,10 @@ if st.button("Submit My Answers!"):
     st.subheader("Your Post-Quiz Vibe Check")
     if score >= 4:
         st.success("You are a TRUE MUSIC MAN! 🏆")
-        st.image('/Users/cainencrowder/Downloads/WebDevLab01 2/WebDevLab01/Images/Trophy.jpg', caption="Your Vibes Are TOO GOOD, ROCK ON🤘", width=300)
+        st.image('/Users/cainencrowder/Downloads/WebDev-Lab-1-/Images/Trophy.jpg', caption="Your Vibes Are TOO GOOD, ROCK ON🤘", width=300)
          #New
         st.balloons()#New
     else:
         st.warning("Keep exploring! Music is a universe waiting for you.")
-        st.image('/Users/cainencrowder/Downloads/WebDevLab01 2/WebDevLab01/Images/Your Learning.png', caption="Time to study up!", width=300)
+        st.image('/Users/cainencrowder/Downloads/WebDev-Lab-1-/ImagesYour Learning.png', caption="Time to study up!", width=300)
           #New
